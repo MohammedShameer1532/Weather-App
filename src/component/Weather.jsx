@@ -16,7 +16,7 @@ const Weather=()=>{
     };
 
     const handleClick=()=>{
-       const API_key = 'b9eca1c32a01893c079813c84d469e07';
+       const API_key = '267e23f8b44341e56b1fe84f7cd3a6f6';
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${API_key}`)
         .then((response)=>response.json())
         .then((data)=>{
